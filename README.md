@@ -1,6 +1,6 @@
 # 📊 Superstore Sales Analysis
 
-Este projeto realiza uma análise exploratória de dados de vendas de uma loja fictícia, identificando padrões, clientes mais lucrativos e produtos de maior desempenho.
+Este projeto realiza uma análise exploratória detalhada dos dados de vendas de uma loja fictícia, com foco em identificar padrões de desempenho por categoria, subcategoria, região, segmento e cliente — destacando produtos mais lucrativos, oportunidades de melhoria e comportamentos que impactam a rentabilidade.
 
 ## 🔍 O que foi feito
 📊 Análise exploratória dos dados do Superstore
