@@ -2,6 +2,11 @@
 
 Este projeto realiza uma análise exploratória detalhada dos dados de vendas de uma loja fictícia, com foco em identificar padrões de desempenho por categoria, subcategoria, região, segmento e cliente — destacando produtos mais lucrativos, oportunidades de melhoria e comportamentos que impactam a rentabilidade.
 
+## 🎯 Objetivo
+
+Entender os principais fatores que impactam as vendas e a lucratividade de uma loja fictícia com base nos dados do Superstore. A partir dessa análise, gerar insights acionáveis que poderiam ser aplicados para decisões estratégicas em marketing, precificação, e gestão de categorias de produtos.
+
+
 ## 🔍 O que foi feito
 📊 Análise exploratória dos dados do Superstore
 Carregamento e limpeza do dataset:
@@ -98,6 +103,9 @@ Discount possui correlação negativa com Profit, sugerindo que grandes desconto
 
 Quantity tem correlação baixa com lucro, reforçando que volume nem sempre significa ganho.
 
+## 🔗 Fonte dos Dados
+
+[Superstore Dataset (Sample - Tableau)](https://community.tableau.com/s/question/0D54T00000CWeEwSAL/sample-superstore-sales-excelxls)
 
 
 ## 📁 Estrutura
@@ -106,6 +114,14 @@ Quantity tem correlação baixa com lucro, reforçando que volume nem sempre sig
 - `notebooks/`: análises e visualizações
 - `scripts/`: funções de limpeza e visualização
 - `reports/`: gráficos exportados
+
+## 📦 Principais Bibliotecas
+
+- pandas
+- matplotlib
+- seaborn
+- numpy
+- jupyter
 
 ## ▶️ Como executar
 
