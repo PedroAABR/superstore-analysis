@@ -103,8 +103,6 @@ Discount possui correlação negativa com Profit, sugerindo que grandes desconto
 
 Quantity tem correlação baixa com lucro, reforçando que volume nem sempre significa ganho.
 
-### Resumo
-
 | Dimensão         | Insight                                                                          |
 | ---------------- | -------------------------------------------------------------------------------- |
 | **Categoria**    | `Technology` lidera em lucro e ticket médio; `Furniture` tem margem baixa.       |
@@ -114,6 +112,15 @@ Quantity tem correlação baixa com lucro, reforçando que volume nem sempre sig
 | **Clientes**     | Top 20 concentram boa parte da receita — ideais para estratégias de fidelização. |
 | **Correlação**   | Descontos altos reduzem o lucro; vendas e lucro possuem correlação moderada.     |
 
+## 🧠 Conclusões Gerais
+### Volume de vendas nem sempre representa lucratividade.
+
+### Subcategorias deficitárias indicam necessidade de revisão estratégica.
+
+### O mix de clientes e descontos impacta diretamente a rentabilidade.
+
+### Existe potencial para explorar regiões e segmentos subutilizados.
+
 
 ## 🔗 Fonte dos Dados
 
@@ -121,22 +128,36 @@ Quantity tem correlação baixa com lucro, reforçando que volume nem sempre sig
 
 ## 📁 Estrutura
 
-- `data/`: dados originais
-- `notebooks/`: análises e visualizações
-- `scripts/`: funções de limpeza e visualização
-- `reports/`: gráficos exportados
+superstore-analysis/
+│
+├── data/          # Dataset original
+├── notebooks/     # Análise e visualizações
+├── scripts/       # Scripts auxiliares (limpeza, gráficos)
+├── reports/       # Gráficos exportados e imagens
+└── requirements.txt
 
-## 📦 Principais Bibliotecas
+## 🛠️ Principais Bibliotecas
+### pandas
 
-- pandas
-- matplotlib
-- seaborn
-- numpy
-- jupyter
+### matplotlib
+
+### seaborn
+
+### numpy
+
+### jupyter
 
 ## ▶️ Como executar
 
-```bash
+### Clone o repositório
 git clone https://github.com/seu-usuario/superstore-analysis.git
 cd superstore-analysis
+
+### Instale as dependências
 pip install -r requirements.txt
+
+### Execute a análise
+jupyter notebook
+
+## 📘 Acesse o notebook
+👉 Clique aqui para abrir a análise no Jupyter Notebook <!-- ajuste o nome real -->
