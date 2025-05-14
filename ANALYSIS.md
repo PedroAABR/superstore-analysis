@@ -138,4 +138,25 @@ Este documento apresenta uma visão aprofundada das análises realizadas por dim
 - Volume (Quantity) tem pouco impacto no lucro.
 
 ---
+## Conclusões e Recomendações
+
+- Volume de vendas não garante lucro.
+- Revisar subcategorias deficitárias para melhoria de margem.
+- Ajustar estratégias por região e segmento.
+- Focar em retenção dos clientes mais lucrativos.
+- Reduzir descontos abusivos para proteger rentabilidade.
+
+---
+
+## Referências
+
+- Dataset: [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+---
+
+## Sobre o Projeto
+
+Este documento complementa o README principal, detalhando a análise exploratória e os insights estratégicos.
+
+---
 
