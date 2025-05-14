@@ -41,7 +41,7 @@ Comparativo de lucro x vendas por segmento.
 
 Ticket médio por segmento.
 
-🔹 Cliente
+# 🔹 Cliente
 Top 20 consumidores com:
 
 Maior volume de vendas.
