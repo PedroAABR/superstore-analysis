@@ -22,9 +22,9 @@
 ## 🔹 Sub-Categoria
 #### 🔸 Total de vendas, quantidade, lucro por sub-categoria.
 <p align="left">
-  <img src="reports/Vendas_subcategoria.png" width="400"/>
-  <img src="reports/Quantidade_subcategoria.png" width="400"/>
-  <img src="reports/Lucro_subcategoria.png" width="400"/>
+  <img src="reports/Vendas_subcategoria.png" width="600"/>
+  <img src="reports/Quantidade_subcategoria.png" width="600"/>
+  <img src="reports/Lucro_subcategoria.png" width="600"/>
 </p>
 
 #### 🔸 Comparativo visual entre lucro x vendas.
