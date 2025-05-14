@@ -171,6 +171,9 @@ jupyter notebook
 
 ## 📌 Próximos passos: 
 Incluir previsão de demanda por categoria com regressão.
+
 Análise estatística (média, desvio, outliers) ou uso de boxplots poderia enriquecer.
-Criar uma versão em inglês do projeto
+
+Criar uma versão em inglês do projeto.
+
 Cria um gráfico interativo (Plotly ou Tableau Public embutido).
