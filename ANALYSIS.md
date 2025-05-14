@@ -57,10 +57,10 @@
 </p>
 
 #### 🔸 Comparativo visual entre lucro x vendas por segmento
-<img src="reports/LucroVendas_segmento.png" width="800"/>
+<img src="reports/LucroVendas_segmento.png" width="400"/>
 
 #### 🔸 Cálculo do ticket médio por região.
-<img src="reports/TicketMedio_segmento.png" width="800"/>
+<img src="reports/TicketMedio_segmento.png" width="400"/>
 
 ## 🔹 Cliente
 Top 20 consumidores com:
