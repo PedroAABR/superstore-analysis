@@ -2,7 +2,7 @@
 
 Este projeto realiza uma análise exploratória de dados de vendas de uma loja fictícia, identificando padrões, clientes mais lucrativos e produtos de maior desempenho.
 
-##🔍 O que foi feito
+## 🔍 O que foi feito
 📊 Análise exploratória dos dados do Superstore
 Carregamento e limpeza do dataset:
 
@@ -12,7 +12,7 @@ Remoção de colunas irrelevantes: Country, Postal Code, Row ID.
 
 Eliminação de duplicatas.
 
-##📁 Análises realizadas
+## 📁 Análises realizadas
 🔹 Categoria
 Total de vendas, quantidade, lucro por categoria.
 
@@ -53,7 +53,7 @@ Maior quantidade comprada.
 🔹 Correlação entre variáveis
 Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
 
-##📈 Resultados e Insights
+## 📈 Resultados e Insights
 ✅ Categoria
 Office Supplies teve a maior quantidade de vendas, mas não necessariamente o maior lucro.
 
