@@ -65,13 +65,13 @@
 ## 🔹 Cliente (Top 20)
 
 #### 🔸 Maior volume de vendas.
-<img src="reports/Vendas_consumidor.png" width="400"/>
+<img src="reports/Vendas_consumidor.png" width="800"/>
 
 #### 🔸 Maior lucro gerado.
-<img src="reports/Lucro_consumidor.png" width="400"/>
+<img src="reports/Lucro_consumidor.png" width="800"/>
 
 #### 🔸 Maior quantidade comprada.
-<img src="reports/Quantidade_consumidor.png" width="400"/>
+<img src="reports/Quantidade_consumidor.png" width="800"/>
 
 ## 🔹 Correlação entre variáveis
 Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
