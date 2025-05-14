@@ -25,7 +25,7 @@ Visualizações comparativas entre métricas chave.
 
 Geração de insights práticos e acionáveis.
 
-## 📁 Análises realizadas, Resultados e Insights
+## 📁 Análises, Resultados e Insights
 
 As análises completas por dimensão (categoria, região, cliente, etc.), resultados das análises mais aprofundados e insights mais precisos foram movidas para um arquivo separado para melhor organização.
 
