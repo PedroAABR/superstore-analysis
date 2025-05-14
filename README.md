@@ -50,6 +50,9 @@ Dataset fictício utilizado:
 
 ## 📁 Estrutura
 
+## 📁 Estrutura
+
+```plaintext
 superstore-analysis/
 ├── data/          # Dataset original
 ├── notebooks/     # Análise e visualizações (notebooks Jupyter)
@@ -58,6 +61,7 @@ superstore-analysis/
 ├── ANALYSIS.md    # Análise detalhada com insights e interpretações
 ├── requirements.txt  # Dependências do projeto
 └── README.md      # Documentação principal do projeto
+```
 
 
 ## 🛠️ Principais Bibliotecas
