@@ -8,7 +8,7 @@ Entender os principais fatores que impactam as vendas e a lucratividade de uma l
 
 
 ## 🔍 O que foi feito
-📊 Análise exploratória dos dados do Superstore
+Análise exploratória dos dados do Superstore
 Carregamento e limpeza do dataset:
 
 Leitura do arquivo Superstore.csv.
@@ -113,13 +113,13 @@ Quantity tem correlação baixa com lucro, reforçando que volume nem sempre sig
 | **Correlação**   | Descontos altos reduzem o lucro; vendas e lucro possuem correlação moderada.     |
 
 ## 🧠 Conclusões Gerais
-### Volume de vendas nem sempre representa lucratividade.
+Volume de vendas nem sempre representa lucratividade.
 
-### Subcategorias deficitárias indicam necessidade de revisão estratégica.
+Subcategorias deficitárias indicam necessidade de revisão estratégica.
 
-### O mix de clientes e descontos impacta diretamente a rentabilidade.
+O mix de clientes e descontos impacta diretamente a rentabilidade.
 
-### Existe potencial para explorar regiões e segmentos subutilizados.
+Existe potencial para explorar regiões e segmentos subutilizados.
 
 
 ## 🔗 Fonte dos Dados
@@ -137,15 +137,15 @@ superstore-analysis/
 └── requirements.txt
 
 ## 🛠️ Principais Bibliotecas
-### pandas
+pandas
 
-### matplotlib
+matplotlib
 
-### seaborn
+seaborn
 
-### numpy
+numpy
 
-### jupyter
+jupyter
 
 ## ▶️ Como executar
 
@@ -160,4 +160,4 @@ pip install -r requirements.txt
 jupyter notebook
 
 ## 📘 Acesse o notebook
-👉 Clique aqui para abrir a análise no Jupyter Notebook <!-- ajuste o nome real -->
+👉 [Clique aqui para abrir a análise no Jupyter Notebook <!-- ajuste o nome real -->](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
