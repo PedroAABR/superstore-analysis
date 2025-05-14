@@ -20,11 +20,18 @@
 
 
 ## 🔹 Sub-Categoria
-Total de vendas, quantidade, lucro por sub-categoria.
+#### 🔸 Total de vendas, quantidade, lucro por sub-categoria.
+<p align="left">
+  <img src="reports/Vendas_subcategoria.png" width="300"/>
+  <img src="reports/Quantidade_subcategoria.png" width="300"/>
+  <img src="reports/Lucro_subcategoria.png" width="300"/>
+</p>
 
-Gráfico com dois eixos: lucro x vendas.
+#### 🔸 Comparativo visual entre lucro x vendas.
+<img src="reports/LucroVendas_subcategoria.png" width="800"/>
 
-Ticket médio por sub-categoria.
+#### 🔸 Cálculo do ticket médio por sub-categoria.
+<img src="reports/TicketMedio_subcategoria.png" width="800"/>
 
 ## 🔹 Região
 Análise de vendas, quantidade e lucro por região.
