@@ -75,13 +75,10 @@ Pedro Augusto Alves Brandão — Data Analyst aspirante, apaixonado por transfor
 Projeto para uso educacional.
 
 ## 🔜 Próximos Passos
-Previsão de demanda por categoria via regressão
-
-Análise estatística mais robusta (média, desvio, outliers)
-
-Versão em inglês do projeto
-
-Gráficos interativos (Plotly, Tableau Public)
+- Previsão de demanda por categoria via regressão
+- Análise estatística mais robusta (média, desvio, outliers)
+- Versão em inglês do projeto
+- Gráficos interativos (Plotly, Tableau Public)
 
 ## 🚀 Como Executar
 
