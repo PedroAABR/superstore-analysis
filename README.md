@@ -1,21 +1,24 @@
 # 📊 Superstore Sales Analysis
 
-Este projeto realiza uma análise exploratória detalhada dos dados de vendas de uma loja fictícia, com foco em identificar padrões de desempenho por categoria, subcategoria, região, segmento e cliente — destacando produtos mais lucrativos, oportunidades de melhoria e comportamentos que impactam a rentabilidade.
+Análise exploratória completa com foco em identificar padrões de vendas, lucratividade e comportamento de clientes em uma loja fictícia. A partir dos dados do Superstore Dataset, foram gerados insights estratégicos por categoria, subcategoria, região, segmento e perfil de cliente.
 
 ## 🎯 Objetivo
 
-Entender os principais fatores que impactam as vendas e a lucratividade de uma loja fictícia com base nos dados do Superstore. A partir dessa análise, gerar insights acionáveis que poderiam ser aplicados para decisões estratégicas em marketing, precificação, e gestão de categorias de produtos.
+Compreender os principais fatores que impactam as vendas e a rentabilidade da operação, analisando diferentes dimensões como tipo de produto, região, perfil do consumidor e descontos. Os resultados podem orientar ações de marketing, precificação, fidelização e gestão de estoque.
 
 
 ## 🔍 O que foi feito
-Análise exploratória dos dados do Superstore
-Carregamento e limpeza do dataset:
-
-Leitura do arquivo Superstore.csv.
+Leitura e limpeza do dataset Superstore.csv.
 
 Remoção de colunas irrelevantes: Country, Postal Code, Row ID.
 
 Eliminação de duplicatas.
+
+Análise exploratória com foco nas principais dimensões do negócio.
+
+Visualizações comparativas entre métricas chave.
+
+Geração de insights práticos e acionáveis.
 
 ## 📁 Análises realizadas
 ### 🔹 Categoria
