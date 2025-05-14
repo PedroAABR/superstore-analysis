@@ -62,14 +62,16 @@
 #### 🔸 Cálculo do ticket médio por região.
 <img src="reports/TicketMedio_segmento.png" width="400"/>
 
-## 🔹 Cliente
-Top 20 consumidores com:
+## 🔹 Cliente (Top 20)
 
-Maior volume de vendas.
+#### 🔸 Maior volume de vendas.
+<img src="reports/Vendas_consumidor.png" width="400"/>
 
-Maior lucro gerado.
+#### 🔸 Maior lucro gerado.
+<img src="reports/Lucro_consumidor.png" width="400"/>
 
-Maior quantidade comprada.
+#### 🔸 Maior quantidade comprada.
+<img src="reports/Quantidade_consumidor.png" width="400"/>
 
 ## 🔹 Correlação entre variáveis
 Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
