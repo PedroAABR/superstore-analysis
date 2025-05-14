@@ -20,21 +20,21 @@ Comparativo visual entre lucro x vendas.
 
 Cálculo do ticket médio por categoria.
 
-🔹 Sub-Categoria
+### 🔹 Sub-Categoria
 Total de vendas, quantidade, lucro por sub-categoria.
 
 Gráfico com dois eixos: lucro x vendas.
 
 Ticket médio por sub-categoria.
 
-🔹 Região
+### 🔹 Região
 Análise de vendas, quantidade e lucro por região.
 
 Comparação visual de lucro x vendas por região.
 
 Cálculo do ticket médio por região.
 
-🔹 Segmento
+### 🔹 Segmento
 Análise de vendas, quantidade e lucro por segmento (Consumer, Corporate, Home Office).
 
 Comparativo de lucro x vendas por segmento.
@@ -50,7 +50,7 @@ Maior lucro gerado.
 
 Maior quantidade comprada.
 
-🔹 Correlação entre variáveis
+### 🔹 Correlação entre variáveis
 Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
 
 ## 📈 Resultados e Insights
