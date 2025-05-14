@@ -133,6 +133,8 @@ Existe potencial para explorar regiões e segmentos subutilizados.
 
 [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download)
 
+### Obs: Os dados são fictícios e os insights são apenas para uso educacional.
+
 ## 📁 Estrutura
 
 superstore-analysis/
