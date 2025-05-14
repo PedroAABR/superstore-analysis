@@ -83,7 +83,7 @@ Projeto para uso educacional.
 ## 🚀 Como Executar
 
 ```bash
-git clone https://github.com/seu-usuario/superstore-analysis.git
+git clone https://github.com/PedroAABR/superstore-analysis.git
 cd superstore-analysis
 pip install -r requirements.txt
 jupyter notebook
