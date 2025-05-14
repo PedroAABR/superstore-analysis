@@ -34,11 +34,19 @@
 <img src="reports/TicketMedio_subcategoria.png" width="800"/>
 
 ## 🔹 Região
-Análise de vendas, quantidade e lucro por região.
+#### 🔸 Total de vendas, quantidade, lucro por região.
+<p align="left">
+  <img src="reports/Vendas_regiao.png" width="300"/>
+  <img src="reports/Quantidade_regiao.png" width="300"/>
+  <img src="reports/Lucro_regiao.png" width="300"/>
+</p>
 
-Comparação visual de lucro x vendas por região.
 
-Cálculo do ticket médio por região.
+#### 🔸 Comparativo visual entre lucro x vendas.
+<img src="reports/LucroVendas_regiao.png" width="800"/>
+
+#### 🔸 Cálculo do ticket médio por região.
+<img src="reports/TicketMedio_regiao.png" width="800"/>
 
 ## 🔹 Segmento
 Análise de vendas, quantidade e lucro por segmento (Consumer, Corporate, Home Office).
