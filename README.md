@@ -50,8 +50,6 @@ Dataset fictício utilizado:
 
 ## 📁 Estrutura
 
-## 📁 Estrutura
-
 ```plaintext
 superstore-analysis/
 ├── data/          # Dataset original
