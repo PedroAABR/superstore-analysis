@@ -2,6 +2,10 @@
 
 Análise exploratória completa com foco em identificar padrões de vendas, lucratividade e comportamento de clientes em uma loja fictícia. A partir dos dados do Superstore Dataset, foram gerados insights estratégicos por categoria, subcategoria, região, segmento e perfil de cliente.
 
+### 📊 Exemplo de Análise
+
+![Correlações](reports/MapaCalor_correlações.png)
+
 ## 🎯 Objetivo
 
 Compreender os principais fatores que impactam as vendas e a rentabilidade da operação, analisando diferentes dimensões como tipo de produto, região, perfil do consumidor e descontos. Os resultados podem orientar ações de marketing, precificação, fidelização e gestão de estoque.
