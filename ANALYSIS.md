@@ -6,11 +6,11 @@
 Total de vendas, quantidade, lucro por categoria.
 
 Comparativo visual entre lucro x vendas.
+<img src="reports/LucroVendas_categoria.png" width="800"/>
 
 Cálculo do ticket médio por categoria.
-
-<img src="reports/LucroVendas_categoria.png" width="800"/>
 <img src="reports/TicketMedio_categoria.png" width="800"/>
+
 
 
 ### 🔹 Sub-Categoria
