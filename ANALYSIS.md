@@ -36,7 +36,7 @@
 ## 🔹 Região
 #### 🔸 Total de vendas, quantidade, lucro por região.
 <p align="left">
-  <img src="reports/Vendas_regiao.png" width="300"/>
+  <img src="reports/Vendas_regiao.png" width="250"/>
   <img src="reports/Quantidade_regiao.png" width="300"/>
   <img src="reports/Lucro_regiao.png" width="300"/>
 </p>
