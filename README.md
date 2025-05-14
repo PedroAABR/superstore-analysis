@@ -103,6 +103,18 @@ Discount possui correlação negativa com Profit, sugerindo que grandes desconto
 
 Quantity tem correlação baixa com lucro, reforçando que volume nem sempre significa ganho.
 
+### Resumo
+
+| Dimensão         | Insight                                                                          |
+| ---------------- | -------------------------------------------------------------------------------- |
+| **Categoria**    | `Technology` lidera em lucro e ticket médio; `Furniture` tem margem baixa.       |
+| **Subcategoria** | `Tables` apresentaram prejuízo; `Phones` e `Chairs` se destacam positivamente.   |
+| **Região**       | Sul tem maior ticket médio, mas menor volume. Centro tem desempenho fraco.       |
+| **Segmento**     | `Corporate` tem melhor ticket médio; `Consumer` lidera em volume.                |
+| **Clientes**     | Top 20 concentram boa parte da receita — ideais para estratégias de fidelização. |
+| **Correlação**   | Descontos altos reduzem o lucro; vendas e lucro possuem correlação moderada.     |
+
+
 ## 🔗 Fonte dos Dados
 
 [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download)
