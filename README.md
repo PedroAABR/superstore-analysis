@@ -13,7 +13,7 @@ Remoção de colunas irrelevantes: Country, Postal Code, Row ID.
 Eliminação de duplicatas.
 
 ## 📁 Análises realizadas
-🔹 Categoria
+### 🔹 Categoria
 Total de vendas, quantidade, lucro por categoria.
 
 Comparativo visual entre lucro x vendas.
