@@ -61,11 +61,9 @@ superstore-analysis/
 
 
 ## 🛠️ Principais Bibliotecas
-- pandas  
-- matplotlib  
-- seaborn  
-- numpy  
-- jupyter
+- Python (pandas, numpy)
+- Jupyter Notebook
+- Matplotlib e Seaborn para visualização
 
 ## Sobre o autor
 Pedro Augusto Alves Brandão — Data Analyst aspirante, apaixonado por transformar dados em decisões estratégicas.
