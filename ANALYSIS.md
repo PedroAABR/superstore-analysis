@@ -28,10 +28,10 @@
 </p>
 
 #### 🔸 Comparativo visual entre lucro x vendas por sub-categoria.
-<img src="reports/LucroVendas_subcategoria.png" width="800"/>
+<img src="reports/LucroVendas_subcategoria.png" width="400"/>
 
 #### 🔸 Cálculo do ticket médio por sub-categoria.
-<img src="reports/TicketMedio_subcategoria.png" width="800"/>
+<img src="reports/TicketMedio_subcategoria.png" width="400"/>
 
 ## 🔹 Região
 #### 🔸 Total de vendas, quantidade, lucro por região.
