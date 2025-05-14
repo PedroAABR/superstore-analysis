@@ -70,9 +70,9 @@ superstore-analysis/
 
 
 ## 📘 Acesse o notebook
-👉 [Analise_Vendas](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
+👉 [Analise Vendas](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
 
-🔜 Próximos Passos
+## 🔜 Próximos Passos
 Previsão de demanda por categoria via regressão
 
 Análise estatística mais robusta (média, desvio, outliers)
