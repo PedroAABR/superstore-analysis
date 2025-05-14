@@ -3,7 +3,7 @@
 #### Este documento contém uma visão aprofundada das análises realizadas por dimensão no dataset Superstore.
 
 ### 🔹 Categoria
-#### Total de vendas, quantidade, lucro por categoria.
+#### ➝ Total de vendas, quantidade, lucro por categoria.
 <p align="left">
   <img src="reports/Vendas_categoria.png" width="300"/>
   <img src="reports/Quantidade_categoria.png" width="300"/>
@@ -11,10 +11,10 @@
 </p>
 
 
-#### Comparativo visual entre lucro x vendas.
+#### ➝ Comparativo visual entre lucro x vendas.
 <img src="reports/LucroVendas_categoria.png" width="800"/>
 
-#### Cálculo do ticket médio por categoria.
+#### ➝ Cálculo do ticket médio por categoria.
 <img src="reports/TicketMedio_categoria.png" width="800"/>
 
 
