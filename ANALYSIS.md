@@ -11,7 +11,7 @@
 </p>
 
 
-#### 🔸 Comparativo visual entre lucro x vendas.
+#### 🔸 Comparativo visual entre lucro x vendas por categoria.
 <img src="reports/LucroVendas_categoria.png" width="800"/>
 
 #### 🔸 Cálculo do ticket médio por categoria.
@@ -27,7 +27,7 @@
   <img src="reports/Lucro_subcategoria.png" width="600"/>
 </p>
 
-#### 🔸 Comparativo visual entre lucro x vendas.
+#### 🔸 Comparativo visual entre lucro x vendas por sub-categoria.
 <img src="reports/LucroVendas_subcategoria.png" width="800"/>
 
 #### 🔸 Cálculo do ticket médio por sub-categoria.
@@ -36,24 +36,31 @@
 ## 🔹 Região
 #### 🔸 Total de vendas, quantidade, lucro por região.
 <p align="left">
-  <img src="reports/Vendas_regiao.png" width="250"/>
+  <img src="reports/Vendas_regiao.png" width="300"/>
   <img src="reports/Quantidade_regiao.png" width="300"/>
   <img src="reports/Lucro_regiao.png" width="300"/>
 </p>
 
 
-#### 🔸 Comparativo visual entre lucro x vendas.
+#### 🔸 Comparativo visual entre lucro x vendas por região.
 <img src="reports/LucroVendas_regiao.png" width="800"/>
 
 #### 🔸 Cálculo do ticket médio por região.
 <img src="reports/TicketMedio_regiao.png" width="800"/>
 
 ## 🔹 Segmento
-Análise de vendas, quantidade e lucro por segmento (Consumer, Corporate, Home Office).
+#### 🔸 Total de vendas, quantidade, lucro por segmento.
+<p align="left">
+  <img src="reports/Vendas_segmento.png" width="300"/>
+  <img src="reports/Quantidade_segmento.png" width="300"/>
+  <img src="reports/Lucro_segmento" width="300"/>
+</p>
 
-Comparativo de lucro x vendas por segmento.
+#### 🔸 Comparativo visual entre lucro x vendas por segmento
+<img src="reports/LucroVendas_segmento" width="800"/>
 
-Ticket médio por segmento.
+#### 🔸 Cálculo do ticket médio por região.
+<img src="reports/TicketMedio_segmento" width="800"/>
 
 ## 🔹 Cliente
 Top 20 consumidores com:
