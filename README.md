@@ -52,15 +52,13 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 ## 📁 Estrutura
 
 superstore-analysis/
-├── data/          # Dataset original
-├── notebooks/     # Análise e visualizações (notebooks Jupyter)
-├── scripts/       # Scripts auxiliares (limpeza, processamento, gráficos)
-├── reports/       # Gráficos exportados e imagens
-├── ANALYSIS.md    # Análise detalhada com insights e interpretações
-├── requirements.txt  # Dependências do projeto
-└── README.md      # Documentação principal do projeto
-
-
+  data/           # Dataset original
+  notebooks/      # Análise e visualizações (notebooks Jupyter)
+  scripts/        # Scripts auxiliares (limpeza, processamento, gráficos)
+  reports/        # Gráficos exportados e imagens
+  ANALYSIS.md     # Análise detalhada com insights e interpretações
+  requirements.txt  # Dependências do projeto
+  README.md       # Documentação principal do projeto
 
 
 ## 🛠️ Principais Bibliotecas
