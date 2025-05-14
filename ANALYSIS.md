@@ -4,6 +4,12 @@
 
 ### 🔹 Categoria
 Total de vendas, quantidade, lucro por categoria.
+<p align="center">
+  <img src="reports/Vendas_categoria.png" width="300"/>
+  <img src="reports/Quantidade_categoria.png" width="300"/>
+  <img src="reports/Lucro_categoria.png" width="300"/>
+</p>
+
 
 Comparativo visual entre lucro x vendas.
 <img src="reports/LucroVendas_categoria.png" width="800"/>
