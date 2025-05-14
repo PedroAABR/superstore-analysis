@@ -136,6 +136,7 @@ superstore-analysis/
 ├── reports/       # Gráficos exportados e imagens
 └── requirements.txt
 
+
 ## 🛠️ Principais Bibliotecas
 pandas
 
