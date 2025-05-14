@@ -53,12 +53,13 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 
 superstore-analysis/
 ├── data/          # Dataset original
-├── notebooks/     # Análise e visualizações
-├── scripts/       # Scripts auxiliares
-├── reports/       # Gráficos exportados
-├── ANALYSIS.md
-├── requirements.txt
-└── README.md
+├── notebooks/     # Análise e visualizações (notebooks Jupyter)
+├── scripts/       # Scripts auxiliares (limpeza, processamento, gráficos)
+├── reports/       # Gráficos exportados e imagens
+├── ANALYSIS.md    # Análise detalhada com insights e interpretações
+├── requirements.txt  # Dependências do projeto
+└── README.md      # Documentação principal do projeto
+
 
 
 ## 🛠️ Principais Bibliotecas
