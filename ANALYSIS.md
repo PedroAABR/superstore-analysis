@@ -74,4 +74,5 @@
 <img src="reports/Quantidade_consumidor.png" width="800"/>
 
 ## 🔹 Correlação entre variáveis
-Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
+#### 🔸 Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
+<img src="reports/MapaCalor_correlações.png" width="800"/>
