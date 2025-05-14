@@ -45,9 +45,8 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 
 ## 🔗 Fonte dos Dados
 
+Dataset fictício utilizado:
 [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download)
-
-### Obs: Os dados são fictícios e os insights são apenas para uso educacional.
 
 ## 📁 Estrutura
 
@@ -68,9 +67,14 @@ superstore-analysis/
 - numpy  
 - jupyter
 
+## Sobre o autor
+Pedro Augusto Alves Brandão — Data Analyst aspirante, apaixonado por transformar dados em decisões estratégicas.
 
 ## 📘 Acesse o notebook
 👉 [Analise Vendas](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
+
+## 📄 Licença
+Projeto para uso educacional.
 
 ## 🔜 Próximos Passos
 Previsão de demanda por categoria via regressão
