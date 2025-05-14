@@ -3,7 +3,7 @@
 #### Este documento contém uma visão aprofundada das análises realizadas por dimensão no dataset Superstore.
 
 ### 🔹 Categoria
-#### ➝ Total de vendas, quantidade, lucro por categoria.
+#### 🔸 Total de vendas, quantidade, lucro por categoria.
 <p align="left">
   <img src="reports/Vendas_categoria.png" width="300"/>
   <img src="reports/Quantidade_categoria.png" width="300"/>
