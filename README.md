@@ -105,7 +105,7 @@ Quantity tem correlação baixa com lucro, reforçando que volume nem sempre sig
 
 ## 🔗 Fonte dos Dados
 
-[Superstore Dataset (Sample - Tableau)](https://community.tableau.com/s/question/0D54T00000CWeEwSAL/sample-superstore-sales-excelxls)
+[Superstore Dataset (Sample - Tableau)]([https://community.tableau.com/s/question/0D54T00000CWeEwSAL/sample-superstore-sales-excelxls](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download))
 
 
 ## 📁 Estrutura
