@@ -43,10 +43,10 @@
 
 
 #### 🔸 Comparativo visual entre lucro x vendas por região.
-<img src="reports/LucroVendas_regiao.png" width="800"/>
+<img src="reports/LucroVendas_regiao.png" width="400"/>
 
 #### 🔸 Cálculo do ticket médio por região.
-<img src="reports/TicketMedio_regiao.png" width="800"/>
+<img src="reports/TicketMedio_regiao.png" width="400"/>
 
 ## 🔹 Segmento
 #### 🔸 Total de vendas, quantidade, lucro por segmento.
