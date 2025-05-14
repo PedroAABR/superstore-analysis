@@ -6,7 +6,6 @@ Análise exploratória completa com foco em identificar padrões de vendas, lucr
 
 <img src="reports/MapaCalor_correlações.png" alt="Correlações" width="400"/>
 <img src="reports/Quantidade_categoria.png" alt="Quantidade de Vendas Categoria" width="400"/>
-<img src="reports/TicketMedio_categoria.png" alt="Ticket Medio Categoria" width="800"/>
 
 ## 🎯 Objetivo
 
