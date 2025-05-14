@@ -27,45 +27,10 @@ Visualizações comparativas entre métricas chave.
 Geração de insights práticos e acionáveis.
 
 ## 📁 Análises realizadas
-### 🔹 Categoria
-Total de vendas, quantidade, lucro por categoria.
 
-Comparativo visual entre lucro x vendas.
+As análises completas por dimensão (categoria, região, cliente, etc.) foram movidas para um arquivo separado para melhor organização.
 
-Cálculo do ticket médio por categoria.
-
-### 🔹 Sub-Categoria
-Total de vendas, quantidade, lucro por sub-categoria.
-
-Gráfico com dois eixos: lucro x vendas.
-
-Ticket médio por sub-categoria.
-
-### 🔹 Região
-Análise de vendas, quantidade e lucro por região.
-
-Comparação visual de lucro x vendas por região.
-
-Cálculo do ticket médio por região.
-
-### 🔹 Segmento
-Análise de vendas, quantidade e lucro por segmento (Consumer, Corporate, Home Office).
-
-Comparativo de lucro x vendas por segmento.
-
-Ticket médio por segmento.
-
-### 🔹 Cliente
-Top 20 consumidores com:
-
-Maior volume de vendas.
-
-Maior lucro gerado.
-
-Maior quantidade comprada.
-
-### 🔹 Correlação entre variáveis
-Mapa de calor com correlação entre variáveis numéricas como Sales, Quantity, Discount, Profit.
+👉 Confira aqui: [🔍 Análise Detalhada](./ANALYSIS.md)
 
 ## 📈 Resultados e Insights
 ### ✅ Categoria
