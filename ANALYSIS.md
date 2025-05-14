@@ -11,10 +11,10 @@
 </p>
 
 
-#### ➝ Comparativo visual entre lucro x vendas.
+#### 🔸 Comparativo visual entre lucro x vendas.
 <img src="reports/LucroVendas_categoria.png" width="800"/>
 
-#### ➝ Cálculo do ticket médio por categoria.
+#### 🔸 Cálculo do ticket médio por categoria.
 <img src="reports/TicketMedio_categoria.png" width="800"/>
 
 
