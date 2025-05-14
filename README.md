@@ -120,13 +120,13 @@ Quantity tem correlação baixa com lucro, reforçando que volume nem sempre sig
 | **Correlação**   | Descontos altos reduzem o lucro; vendas e lucro possuem correlação moderada.     |
 
 ## 🧠 Conclusões Gerais
-Volume de vendas nem sempre representa lucratividade.
+#### Volume de vendas nem sempre representa lucratividade.
 
-Subcategorias deficitárias indicam necessidade de revisão estratégica.
+#### Subcategorias deficitárias indicam necessidade de revisão estratégica.
 
-O mix de clientes e descontos impacta diretamente a rentabilidade.
+#### O mix de clientes e descontos impacta diretamente a rentabilidade.
 
-Existe potencial para explorar regiões e segmentos subutilizados.
+#### Existe potencial para explorar regiões e segmentos subutilizados.
 
 
 ## 🔗 Fonte dos Dados
@@ -147,15 +147,12 @@ superstore-analysis/
 
 
 ## 🛠️ Principais Bibliotecas
-pandas
+- pandas  
+- matplotlib  
+- seaborn  
+- numpy  
+- jupyter
 
-matplotlib
-
-seaborn
-
-numpy
-
-jupyter
 
 ## ▶️ Como executar
 
@@ -170,4 +167,10 @@ pip install -r requirements.txt
 jupyter notebook
 
 ## 📘 Acesse o notebook
-👉 [Clique aqui para abrir a análise no Jupyter Notebook <!-- ajuste o nome real -->](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
+👉 [Analise_Vendas](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
+
+## 📌 Próximos passos: 
+Incluir previsão de demanda por categoria com regressão.
+Análise estatística (média, desvio, outliers) ou uso de boxplots poderia enriquecer.
+Criar uma versão em inglês do projeto
+Cria um gráfico interativo (Plotly ou Tableau Public embutido).
