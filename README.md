@@ -50,6 +50,7 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 ### Obs: Os dados são fictícios e os insights são apenas para uso educacional.
 
 ## 📁 Estrutura
+
 superstore-analysis/
 ├── data/          # Dataset original
 ├── notebooks/     # Análise e visualizações (notebooks Jupyter)
