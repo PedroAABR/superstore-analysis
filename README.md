@@ -4,7 +4,9 @@ Análise exploratória completa com foco em identificar padrões de vendas, lucr
 
 ### 📊 Exemplo de Análise
 
-![Correlações](reports/MapaCalor_correlações.png)
+<img src="reports/MapaCalor_correlações.png" alt="Correlações" width="600"/>
+<img src="reports/Quantidade_categoria.png" alt="Quantidade de Vendas Categoria" width="600"/>
+<img src="reports/TicketMedio_categoria.png" alt="Ticket Medio Categoria" width="600"/>
 
 ## 🎯 Objetivo
 
