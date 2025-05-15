@@ -81,6 +81,7 @@ Projeto para uso educacional.
 - Análise estatística mais robusta (média, desvio, outliers)
 - Versão em inglês do projeto
 - Gráficos interativos (Plotly, Tableau Public)
+- Mais análises/comparações
 
 ## 🚀 Como Executar
 
