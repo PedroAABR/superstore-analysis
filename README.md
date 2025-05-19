@@ -50,7 +50,6 @@ Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 
 ## 🔗 Fonte dos Dados
 
-Dataset fictício utilizado:
 [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download)
 
 ## 📁 Estrutura
