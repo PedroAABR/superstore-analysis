@@ -22,15 +22,13 @@ Identificar padrões de vendas, margem de lucro e comportamento de clientes a pa
 
 
 ## 🔍 O que foi feito
-📥 Leitura e limpeza do dataset Superstore.csv:
+- 📥 Leitura e limpeza do dataset Superstore.csv:
+ - Remoção de colunas irrelevantes: Country, Postal Code, Row ID
+ - Eliminação de duplicatas
 
-- Remoção de colunas irrelevantes: Country, Postal Code, Row ID
 
-- Eliminação de duplicatas
-
-🧹 Tratamento e preparação dos dados:
-
-- Padronização e organização para análise exploratória
+- 🧹 Tratamento e preparação dos dados:
+  - Padronização e organização para análise exploratória
 
 📊 Análise exploratória focada nas principais dimensões do negócio
 
