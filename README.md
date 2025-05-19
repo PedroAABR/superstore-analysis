@@ -46,7 +46,7 @@ Identificar padrões de vendas, margem de lucro e comportamento de clientes a pa
 | **Clientes**   | Top 20 clientes concentram grande parte do lucro.              |
 | **Correlação** | Descontos altos reduzem lucro; vendas e lucro moderadamente correlacionados. |
 
-Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
+📖 Veja a análise completa em [`ANALYSIS.md`](./ANALYSIS.md)
 
 ## 🧠 Conclusões Gerais
 - 📦 Volume de vendas nem sempre representa lucratividade.
@@ -100,8 +100,6 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](./L
 - [ ] Versão em inglês do projeto
 - [ ] Gráficos interativos (Plotly, Tableau Public)
 - [ ] Mais análises/comparações
-
-## 🚀 Como Executar
 
 ## 💻 Como Executar
 Clone este repositório:
