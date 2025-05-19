@@ -1,5 +1,10 @@
+# Manipulação e análise de dados
 pandas==2.2.2
 numpy==1.26.4
+
+# Visualização de dados
 matplotlib==3.8.4
 seaborn==0.13.2
+
+# Ambiente interativo (Jupyter Notebook)
 jupyter==1.0.0
