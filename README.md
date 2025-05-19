@@ -1,5 +1,10 @@
 # 📊 Superstore Sales Analysis
 
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/seu-usuario/covid19-brasil-analysis/blob/main/notebooks/covid19_analysis.ipynb)
+
 Análise de vendas e lucratividade para uma loja fictícia, focada em gerar insights estratégicos que ajudam na tomada de decisão em marketing, estoque e precificação.
 
 ## 🎯 Objetivo
@@ -63,30 +68,46 @@ superstore-analysis/
 
 
 ## 🛠️ Principais Bibliotecas
-- Python (pandas, numpy)
-- Jupyter Notebook
-- Matplotlib e Seaborn para visualização
+#### - Python (pandas, numpy)
 
-## Sobre o autor
-Pedro Augusto Alves Brandão — Data Analyst aspirante, apaixonado por transformar dados em decisões estratégicas.
+#### - Jupyter Notebook
+
+#### - Matplotlib & Seaborn para visualização
+
+#### - Google Colab para execução na nuvem
+
+## 👨‍💻 Sobre o Autor
+#### Pedro Augusto Alves Brandão
+Aspirante a Cientista de Dados, apaixonado por transformar dados em decisões estratégicas.
 
 ## 📘 Acesse o notebook
 👉 [Analise Vendas](https://colab.research.google.com/drive/1E2C-8DHi0uzHHOPbs9dFmlH41_x6LwQH?usp=sharing)
 
 ## 📄 Licença
-Projeto para uso educacional.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
 
 ## 🔜 Próximos Passos
-- Previsão de demanda por categoria via regressão
-- Análise estatística mais robusta (média, desvio, outliers)
-- Versão em inglês do projeto
-- Gráficos interativos (Plotly, Tableau Public)
-- Mais análises/comparações
+- [ ] Previsão de demanda por categoria via regressão
+- [ ] Análise estatística mais robusta (média, desvio, outliers)
+- [ ] Versão em inglês do projeto
+- [ ] Gráficos interativos (Plotly, Tableau Public)
+- [ ] Mais análises/comparações
 
 ## 🚀 Como Executar
 
-```bash
-git clone https://github.com/PedroAABR/superstore-analysis.git
-cd superstore-analysis
-pip install -r requirements.txt
-jupyter notebook
+## 💻 Como Executar
+Clone este repositório:
+````
+git clone https://github.com/PedroAABR/covid19-brasil-analysis.git
+````
+Instale as dependências (recomenda-se uso do Google Colab):
+
+- pandas
+
+- matplotlib
+
+- seaborn
+
+- numpy
+
+Execute o notebook principal no Colab para reproduzir as análises.
