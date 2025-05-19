@@ -8,8 +8,17 @@
 Análise de vendas e lucratividade para uma loja fictícia, focada em gerar insights estratégicos que ajudam na tomada de decisão em marketing, estoque e precificação.
 
 ## 🎯 Objetivo
+Identificar padrões de vendas, margem de lucro e comportamento de clientes a partir do dataset Superstore, com o intuito de:
 
-Identificar padrões de vendas, margem de lucro e comportamento de clientes a partir do dataset Superstore. Resultados orientam ações comerciais e operacionais.
+- Analisar tendências de vendas ao longo do tempo;
+
+- Avaliar a rentabilidade por produto e categoria;
+
+- Compreender o perfil e comportamento dos clientes;
+
+- Detectar oportunidades para otimizar ações comerciais;
+
+- Apoiar decisões operacionais baseadas em dados.
 
 
 ## 🔍 O que foi feito
