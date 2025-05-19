@@ -29,11 +29,11 @@ Identificar padrões de vendas, margem de lucro e comportamento de clientes a pa
 - 🧹 Tratamento e preparação dos dados:
   - Padronização e organização para análise exploratória
 
-📊 Análise exploratória focada nas principais dimensões do negócio
+- 📊 Análise exploratória focada nas principais dimensões do negócio
 
-📈 Visualizações comparativas entre métricas-chave
+- 📈 Visualizações comparativas entre métricas-chave
 
-💡 Geração de insights práticos e acionáveis
+- 💡 Geração de insights práticos e acionáveis
 
 ## 📈 Principais Insights
 
