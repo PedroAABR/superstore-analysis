@@ -49,14 +49,13 @@ Identificar padrões de vendas, margem de lucro e comportamento de clientes a pa
 Para análises detalhadas, veja: [Análise Completa](./ANALYSIS.md)
 
 ## 🧠 Conclusões Gerais
-#### Volume de vendas nem sempre representa lucratividade.
+- 📦 Volume de vendas nem sempre representa lucratividade.
 
-#### Subcategorias deficitárias indicam necessidade de revisão estratégica.
+- ⚠️ Subcategorias deficitárias indicam necessidade de revisão estratégica.
 
-#### O mix de clientes e descontos impacta diretamente a rentabilidade.
+- 👥 O mix de clientes e descontos impacta diretamente a rentabilidade.
 
-#### Existe potencial para explorar regiões e segmentos subutilizados.
-
+- 🌍 Existe potencial para explorar regiões e segmentos subutilizados.
 
 ## 🔗 Fonte dos Dados
 
