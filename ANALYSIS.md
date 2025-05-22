@@ -16,14 +16,49 @@ Este documento apresenta uma visão aprofundada das análises realizadas por dim
 
 ---
 
-## 🔹 Categoria
+# 🔹 Categoria
 
-### 🔸 Total de vendas, quantidade, lucro por categoria
-<p align="left">
-  <img src="reports/Vendas_categoria.png" width="300"/>
+# 📊 Total de Vendas por Categoria
+
+<img src="reports/Vendas_categoria.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um gráfico de barras para apresentar o **total de vendas (em valor monetário)** de uma loja fictícia, segmentado por categoria de produtos. Os dados foram agrupados pela variável:
+
+- `Category`: categoria do produto (`Furniture`, `Office Supplies`, `Technology`)
+- `Sales`: valor monetário das vendas
+
+A soma total por categoria foi calculada e visualizada com `seaborn.barplot()`.
+
+## 📈 Principais Insights
+
+1. **Categoria com maior faturamento: Technology**
+   - A categoria **Technology** lidera as vendas, com um total superior a **$840.000**, indicando alto valor agregado por item ou forte volume de vendas.
+
+2. **Furniture e Office Supplies em patamares similares**
+   - Ambas as categorias apresentam vendas totais entre **$720.000 e $750.000**, com Furniture levemente à frente.
+   - Isso sugere um **desempenho equilibrado** entre os segmentos, mas com potencial de crescimento em estratégias distintas.
+
+3. **Tecnologia como motor de receita**
+   - O domínio da categoria Technology pode indicar:
+     - Alta demanda por eletrônicos e acessórios
+     - Maiores margens por item
+     - Campanhas promocionais eficazes nesse segmento
+
+## 🧠 Conclusões Gerais
+
+- A análise por categoria fornece **visão estratégica da composição da receita**, útil para ações de marketing, reposição de estoque e foco em atendimento especializado.
+- Sugere-se acompanhar essa análise com:
+  - **Lucro por categoria** (e não apenas vendas)
+  - **Ticket médio**
+  - **Frequência de compra por segmento**
+
+Esse tipo de visualização é fundamental em **dashboards comerciais, relatórios de desempenho e apresentações executivas**.
+
   <img src="reports/Quantidade_categoria.png" width="300"/>
   <img src="reports/Lucro_categoria.png" width="300"/>
-</p>
+
 
 ### 🔸 Comparativo visual entre lucro x vendas por categoria
 <img src="reports/LucroVendas_categoria.png" width="800"/>
