@@ -56,19 +56,146 @@ A soma total por categoria foi calculada e visualizada com `seaborn.barplot()`.
 
 Esse tipo de visualização é fundamental em **dashboards comerciais, relatórios de desempenho e apresentações executivas**.
 
-  <img src="reports/Quantidade_categoria.png" width="300"/>
-  <img src="reports/Lucro_categoria.png" width="300"/>
+# 📊 Quantidade Total de Produtos Vendidos por Categoria
 
+<img src="reports/Quantidade_categoria.png"/>
 
-### 🔸 Comparativo visual entre lucro x vendas por categoria
-<img src="reports/LucroVendas_categoria.png" width="800"/>
+## 🔍 O que foi feito
 
-### 🔸 Ticket médio por categoria
-<img src="reports/TicketMedio_categoria.png" width="800"/>
+Foi criado um gráfico de barras exibindo o **volume total de unidades vendidas** por categoria de produto. As variáveis utilizadas foram:
+
+- `Category`: categoria de produtos (`Furniture`, `Office Supplies`, `Technology`)
+- `Quantity`: número total de unidades vendidas
+
+Os dados foram agrupados por categoria e somados.
+
+## 📈 Principais Insights
+
+1. **Office Supplies lidera em quantidade**
+   - A categoria **Office Supplies** ultrapassa 23.000 unidades vendidas, o que representa **o maior volume de vendas em quantidade**, embora não necessariamente em valor.
+
+2. **Furniture e Technology com menor volume**
+   - Ambas as categorias venderam significativamente menos em quantidade:
+     - **Furniture:** cerca de 8.000 unidades
+     - **Technology:** cerca de 7.000 unidades
+
+3. **Venda em grande escala de itens de baixo valor**
+   - O alto volume em `Office Supplies` indica que os produtos têm **alto giro**, mas provavelmente **baixo ticket médio** (papel, canetas, clipes, etc.).
+
+4. **Tecnologia: menos itens, maior valor**
+   - Em contraste, `Technology` vende menos unidades, mas sabemos (pelo gráfico anterior) que gera **maior valor em vendas**, confirmando seu **alto valor unitário**.
+
+## 🧠 Conclusões Gerais
+
+- A análise de quantidade por categoria é essencial para entender o **perfil operacional da loja**, especialmente para:
+  - **Gestão de estoque**
+  - **Logística**
+  - **Planejamento de compras e reposições**
+- Combinar essas informações com dados de lucro e margem ajuda a identificar **categorias estratégicas por valor e volume**.
+
+# 📊 Lucro por Categoria
+
+<img src="reports/Lucro_categoria.png"/>
+
+## 🔍 O que foi feito
+
+Foi gerado um gráfico de barras exibindo o **lucro total obtido por categoria de produto**, com base nos dados históricos de vendas.
+
+As variáveis analisadas foram:
+
+- `Category`: categoria do produto (`Furniture`, `Office Supplies`, `Technology`)
+- `Profit`: lucro gerado (vendas menos custo)
+
+Os valores foram agregados via `groupby` e somados por categoria.
+
+## 📈 Principais Insights
+
+1. **Technology: maior lucratividade**
+   - A categoria **Technology** apresentou o maior lucro absoluto, superior a **$145.000**, confirmando seu alto valor agregado e margem por unidade.
+
+2. **Office Supplies: equilíbrio entre volume e margem**
+   - Com cerca de **$123.000 de lucro**, Office Supplies demonstra ser uma **categoria rentável**, mesmo com preços unitários mais baixos, graças ao **alto volume de vendas**.
+
+3. **Furniture: baixa margem de contribuição**
+   - Apesar de ter vendas relevantes, Furniture obteve o menor lucro (cerca de **$19.000**), possivelmente devido a:
+     - Altos custos logísticos
+     - Descontos excessivos
+     - Margem unitária reduzida
+
+## 🧠 Conclusões Gerais
+
+- O lucro por categoria é fundamental para avaliar a **eficiência comercial**, indo além do volume de vendas.
+- A análise revela que **vender muito nem sempre significa lucrar mais** — o foco deve estar em categorias com **boa margem e volume estratégico**.
+- Recomendação: aprofundar a análise de Furniture para entender os gargalos (ex: frete, devoluções, descontos, fornecedores).
+
+# 📊 Comparativo de Lucro x Vendas por Categoria
+
+<img src="reports/LucroVendas_categoria.png"/>
+
+## 🔍 O que foi feito
+
+Foi criado um gráfico de **dois eixos y (dual axis)** para comparar:
+
+- **Lucro total (`Profit`)** por categoria (eixo y da esquerda — barras azuis)
+- **Valor total de vendas (`Sales`)** por categoria (eixo y da direita — linha vermelha)
+
+Essa abordagem permite **avaliar simultaneamente o volume de vendas e o resultado financeiro líquido** de cada categoria.
+
+## 📈 Principais Insights
+
+1. **Technology: alto desempenho em ambas as métricas**
+   - Lidera em **lucro e vendas**, demonstrando ser a **categoria mais valiosa e lucrativa** da loja.
+
+2. **Office Supplies: grande volume, rentabilidade moderada**
+   - Possui **vendas robustas** (próximas a Technology), mas com lucro menor, sugerindo:
+     - Menor margem por unidade
+     - Produtos com preços baixos e giro alto
+
+3. **Furniture: baixo lucro, vendas médias**
+   - Tem um volume de vendas razoável, mas apresenta o **menor lucro**, o que pode indicar:
+     - Altos custos logísticos
+     - Margens estreitas
+     - Problemas operacionais ou de precificação
+
+## 🧠 Conclusões Gerais
+
+- Este comparativo é fundamental para **entender o real impacto financeiro das categorias**, e não apenas o faturamento bruto.
+- A análise evidencia que:
+  - Nem sempre a **categoria mais vendida é a mais lucrativa**
+  - **Gestão estratégica de margem** é tão importante quanto volume de vendas
+
+# 💳 Ticket Médio por Categoria
+
+<img src="reports/TicketMedio_categoria.png"/>
+
+## 🔍 O que foi feito
+
+Foi gerado um gráfico de barras que mostra o **ticket médio** de cada categoria, calculado pela fórmula:
+
+- `Ticket Médio = Sales / Quantity`
+
+Ou seja, representa o **valor médio por item vendido** em cada categoria (`Furniture`, `Office Supplies`, `Technology`).
+
+## 📈 Principais Insights
+
+1. **Technology: maior ticket médio**
+   - Com média acima de **$120 por item**, a categoria **Technology** apresenta produtos de maior valor agregado, como notebooks, impressoras e dispositivos eletrônicos.
+
+2. **Furniture: ticket médio intermediário**
+   - A categoria **Furniture** tem ticket médio em torno de **$90**, refletindo itens volumosos e com preços médios mais altos, como cadeiras e mesas.
+
+3. **Office Supplies: menor ticket médio**
+   - Com cerca de **$32 por item**, Office Supplies inclui **produtos baratos e de consumo rotineiro**, como papelaria e utensílios de escritório.
+
+## 🧠 Conclusões Gerais
+
+- O ticket médio é um indicador essencial para definir **estratégias de precificação e abordagem comercial**.
+- A categoria `Technology`, apesar de vender menos em quantidade, **compensa com valor unitário elevado**, o que explica seu alto faturamento e lucro.
+- Já `Office Supplies`, embora com alto volume de vendas, **precisa de estratégias de escala ou aumento de margem** para se manter rentável.
 
 ---
 
-## 🔹 Sub-Categoria
+# 🔹 Sub-Categoria
 
 ### 🔸 Total de vendas, quantidade, lucro por sub-categoria
 <p align="left">
