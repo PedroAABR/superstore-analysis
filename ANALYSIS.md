@@ -18,11 +18,11 @@ Este documento apresenta uma visão aprofundada das análises realizadas por dim
 
 # 🔹 Categoria
 
-# 📊 Total de Vendas por Categoria
+## 📊 Total de Vendas por Categoria
 
 <img src="reports/Vendas_categoria.png"/>
 
-## 🔍 O que foi feito
+### 🔍 O que foi feito
 
 Foi criado um gráfico de barras para apresentar o **total de vendas (em valor monetário)** de uma loja fictícia, segmentado por categoria de produtos. Os dados foram agrupados pela variável:
 
@@ -31,7 +31,7 @@ Foi criado um gráfico de barras para apresentar o **total de vendas (em valor m
 
 A soma total por categoria foi calculada e visualizada com `seaborn.barplot()`.
 
-## 📈 Principais Insights
+### 📈 Principais Insights
 
 1. **Categoria com maior faturamento: Technology**
    - A categoria **Technology** lidera as vendas, com um total superior a **$840.000**, indicando alto valor agregado por item ou forte volume de vendas.
@@ -46,7 +46,7 @@ A soma total por categoria foi calculada e visualizada com `seaborn.barplot()`.
      - Maiores margens por item
      - Campanhas promocionais eficazes nesse segmento
 
-## 🧠 Conclusões Gerais
+### 🧠 Conclusões Gerais
 
 - A análise por categoria fornece **visão estratégica da composição da receita**, útil para ações de marketing, reposição de estoque e foco em atendimento especializado.
 - Sugere-se acompanhar essa análise com:
