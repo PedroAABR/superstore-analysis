@@ -686,13 +686,15 @@ Foi criado um **heatmap de correlação** entre as variáveis numéricas do data
 
 
 ---
-## Conclusões e Recomendações
+# 🧠 Conclusões e Recomendações
 
-- Volume de vendas não garante lucro.
-- Revisar subcategorias deficitárias para melhoria de margem.
-- Ajustar estratégias por região e segmento.
-- Focar em retenção dos clientes mais lucrativos.
-- Reduzir descontos abusivos para proteger rentabilidade.
+- 📊 **Volume de vendas não equivale a lucratividade** — é essencial acompanhar **margens e ticket médio** por categoria e cliente.
+- 🛠️ **Revisar subcategorias com prejuízo ou baixa margem**, como *Tables*, para **ajuste de preços, renegociação com fornecedores ou descontinuidade**.
+- 🌍 **Ajustar estratégias regionais** — investir mais nas regiões *West* e *East*, enquanto *Central* requer **ações corretivas ou campanhas locais**.
+- 🧑‍💼 **Segmentar ações por perfil de cliente** — *Corporate* possui maior ticket médio, já *Consumer* traz volume, o que exige **abordagens distintas**.
+- 🤝 **Focar na retenção dos clientes mais lucrativos** — priorizar relacionamento com o top 20, criando programas de fidelidade ou atendimento personalizado.
+- 🔻 **Reavaliar políticas de desconto** — há **impacto negativo direto no lucro**, sendo necessário **estabelecer limites e utilizar descontos de forma estratégica**.
+
 
 ---
 
