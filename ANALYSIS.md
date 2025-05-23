@@ -446,50 +446,6 @@ Os dados foram ordenados de forma decrescente para facilitar a comparação entr
 
 # 🔹 Segmento
 
-# 📊 Lucro por Segmento
-
-<img src="reports/Lucro_segmento.png"/>
-
-## 🔍 O que foi feito
-O gráfico acima representa o **lucro total** obtido por cada segmento de clientes da empresa: `Consumer`, `Corporate` e `Home Office`.
-
-A métrica de lucro foi agregada por segmento com a função `.sum()` e visualizada através de um gráfico de barras vertical.
-
-## 📈 Principais Insights
-
-- O segmento **Consumer** foi o mais lucrativo, apresentando um desempenho significativamente superior aos demais.
-- O segmento **Corporate** gerou um lucro considerável, porém ainda abaixo do segmento Consumer.
-- O segmento **Home Office** teve o menor lucro, o que pode indicar:
-  - Menor volume de vendas,
-  - Produtos com margens menores,
-  - Ou altos custos associados.
-
-## 🧠 Conclusões Gerais
-
-- O foco em estratégias de fidelização e crescimento do segmento **Consumer** pode continuar gerando excelentes retornos.
-- Há potencial para expansão no segmento **Corporate**, com políticas comerciais mais agressivas ou personalizadas.
-- O segmento **Home Office** exige atenção: é necessário investigar se o baixo desempenho está relacionado a produtos, preços, canais de venda ou perfil de clientes.
-
-# 📊 Quantidade de Vendas por Segmento
-
-<img src="reports/Quantidade_segmento.png"/>
-
-## 🔍 O que foi feito
-Este gráfico de barras apresenta a **quantidade total de produtos vendidos** por segmento (`Consumer`, `Corporate`, `Home Office`) com base nos registros históricos de vendas.
-
-A agregação foi feita por soma da variável `Quantity` utilizando `groupby`.
-
-## 📈 Principais Insights
-
-- O segmento **Consumer** é o mais representativo em volume, com quase o dobro da quantidade de vendas do segmento **Corporate**.
-- **Home Office** apresenta o menor volume de vendas, o que pode impactar diretamente seu faturamento e lucratividade.
-
-## 🧠 Conclusões Gerais
-
-- A dominância do segmento Consumer em volume pode indicar uma **base de clientes mais ampla ou com maior frequência de compra**.
-- O segmento **Corporate**, mesmo com volume menor, pode apresentar **melhor rentabilidade** dependendo da margem envolvida.
-- É essencial investigar o segmento **Home Office**: há espaço para explorar estratégias de penetração, reposicionamento de produto ou campanhas específicas para este público.
-
 # 📊 Total de Vendas (valor) por Segmento
 
 <img src="reports/Vendas_segmento.png"/>
@@ -514,66 +470,220 @@ Os dados foram agregados por meio da soma da variável `Sales`.
 - O **Home Office** tem desempenho inferior — ideal para ações de **crescimento, reengajamento ou reposicionamento estratégico**.
 
 
-### 🔸 Comparativo lucro x vendas por segmento
-<img src="reports/LucroVendas_segmento.png" width="400"/>
+# 📊 Quantidade de Vendas por Segmento
 
-### 🔸 Ticket médio por segmento
-<img src="reports/TicketMedio_segmento.png" width="400"/>
+<img src="reports/Quantidade_segmento.png"/>
+
+## 🔍 O que foi feito
+Este gráfico de barras apresenta a **quantidade total de produtos vendidos** por segmento (`Consumer`, `Corporate`, `Home Office`) com base nos registros históricos de vendas.
+
+A agregação foi feita por soma da variável `Quantity` utilizando `groupby`.
+
+## 📈 Principais Insights
+
+- O segmento **Consumer** é o mais representativo em volume, com quase o dobro da quantidade de vendas do segmento **Corporate**.
+- **Home Office** apresenta o menor volume de vendas, o que pode impactar diretamente seu faturamento e lucratividade.
+
+## 🧠 Conclusões Gerais
+
+- A dominância do segmento Consumer em volume pode indicar uma **base de clientes mais ampla ou com maior frequência de compra**.
+- O segmento **Corporate**, mesmo com volume menor, pode apresentar **melhor rentabilidade** dependendo da margem envolvida.
+- É essencial investigar o segmento **Home Office**: há espaço para explorar estratégias de penetração, reposicionamento de produto ou campanhas específicas para este público.
+
+# 📊 Lucro por Segmento
+
+<img src="reports/Lucro_segmento.png"/>
+
+## 🔍 O que foi feito
+O gráfico acima representa o **lucro total** obtido por cada segmento de clientes da empresa: `Consumer`, `Corporate` e `Home Office`.
+
+A métrica de lucro foi agregada por segmento com a função `.sum()` e visualizada através de um gráfico de barras vertical.
+
+## 📈 Principais Insights
+
+- O segmento **Consumer** foi o mais lucrativo, apresentando um desempenho significativamente superior aos demais.
+- O segmento **Corporate** gerou um lucro considerável, porém ainda abaixo do segmento Consumer.
+- O segmento **Home Office** teve o menor lucro, o que pode indicar:
+  - Menor volume de vendas,
+  - Produtos com margens menores,
+  - Ou altos custos associados.
+
+## 🧠 Conclusões Gerais
+
+- O foco em estratégias de fidelização e crescimento do segmento **Consumer** pode continuar gerando excelentes retornos.
+- Há potencial para expansão no segmento **Corporate**, com políticas comerciais mais agressivas ou personalizadas.
+- O segmento **Home Office** exige atenção: é necessário investigar se o baixo desempenho está relacionado a produtos, preços, canais de venda ou perfil de clientes.
+
+
+# 📊 Lucro x Vendas (valor) por Segmento
+
+<img src="reports/LucroVendas_segmento.png"/>
+
+## 🔍 O que foi feito
+Este gráfico combina dois eixos para analisar a relação entre:
+
+- **Lucro total** (barra azul) e
+- **Vendas totais em valor monetário** (linha vermelha com marcadores)
+
+para cada um dos segmentos: `Consumer`, `Corporate` e `Home Office`.
+
+## 📈 Principais Insights
+
+- **Consumer** lidera tanto em vendas quanto em lucro absoluto, reforçando seu papel como **principal motor financeiro da operação**.
+- O segmento **Corporate**, embora tenha vendas intermediárias, apresenta lucro **proporcionalmente menor**, sugerindo menor margem ou maior custo.
+- **Home Office** é o segmento com o menor volume de vendas e o menor lucro, o que pode indicar baixo desempenho ou baixa penetração de mercado.
+
+## 🧠 Conclusões Gerais
+
+- A forte correlação entre vendas e lucro em Consumer indica um segmento **eficiente e rentável**, ideal para **investimentos em retenção e expansão**.
+- A diferença entre vendas e lucro no segmento Corporate sugere necessidade de **otimização de margem ou renegociação de condições comerciais**.
+- O Home Office pode ser explorado com campanhas de **crescimento, incentivo de vendas cruzadas ou foco em nichos específicos**.
+
+
+# 📊 Ticket Médio por Segmento
+
+<img src="reports/TicketMedio_segmento.png"/>
+
+## 🔍 O que foi feito
+Foi calculado o **ticket médio** por segmento, representando o valor médio por venda em cada segmento (`Sales / Quantity`). Os segmentos considerados foram:
+
+- Consumer
+- Corporate
+- Home Office
+
+## 📈 Principais Insights
+
+- O segmento **Home Office** apresentou o maior ticket médio, mesmo sendo o de menor volume total de vendas.
+- **Corporate** e **Consumer** têm tickets médios semelhantes, ligeiramente abaixo do Home Office, o que pode indicar uma abordagem mais **fragmentada ou de menor valor por venda**.
+  
+## 🧠 Conclusões Gerais
+
+- O alto ticket médio do Home Office pode ser resultado de **vendas mais especializadas ou produtos de maior valor agregado**, apesar do volume reduzido.
+- Para os segmentos Corporate e Consumer, estratégias de **aumento de ticket médio** (como upselling e bundles) podem trazer ganhos significativos sem aumentar o volume de vendas.
+- Este tipo de análise auxilia na **definição de campanhas segmentadas**, promoções específicas e estratégias de precificação mais eficazes.
 
 ---
 
-## 🔹 Cliente (Top 20)
+# 🔹 Cliente (Top 20)
 
-### 🔸 Maior volume de vendas
-<img src="reports/Vendas_consumidor.png" width="800"/>
+# 📊 Top 20 Consumidores com Maior Vendas (valor)
 
-### 🔸 Maior lucro gerado
-<img src="reports/Lucro_consumidor.png" width="800"/>
+<img src="reports/Vendas_consumidor.png"/>
 
-### 🔸 Maior quantidade comprada
-<img src="reports/Quantidade_consumidor.png" width="800"/>
+## 🔍 O que foi feito
+Foi realizada a soma total das vendas por cliente (campo `Customer Name`) e extraídos os **20 maiores consumidores** em termos de valor monetário total (`Sales`). O gráfico de barras apresenta esses clientes em ordem decrescente.
+
+## 📈 Principais Insights
+
+- **Sean Miller** lidera o ranking com um valor de vendas significativamente superior aos demais.
+- Existe uma **diferença considerável** entre os dois primeiros colocados e o restante da lista, sugerindo concentração de receita.
+- A curva após os cinco primeiros indica uma **queda progressiva**, mas ainda representa clientes valiosos.
+
+## 🧠 Conclusões Gerais
+
+- Clientes como **Sean Miller** e **Tamara Chand** devem ser considerados para **ações de retenção e fidelização**, já que representam uma parte substancial da receita.
+- Estratégias de relacionamento personalizado com esse grupo pode gerar **aumento do ticket médio** e **redução de churn**.
+- A análise reforça a importância da **segmentação de clientes baseada em valor**, contribuindo para decisões de marketing e atendimento estratégico.
+
+
+# 📊 Top 20 Consumidores com Maior Lucro
+
+<img src="reports/Lucro_consumidor.png"/>
+
+## 🔍 O que foi feito
+Foi calculado o lucro total (`Profit`) por cliente (`Customer Name`) e os **20 consumidores mais lucrativos** foram selecionados e exibidos em ordem decrescente em um gráfico de barras.
+
+## 📈 Principais Insights
+
+- **Tamara Chand** lidera com grande margem de lucro, ultrapassando os demais consumidores de forma expressiva.
+- Os cinco primeiros colocados representam uma **proporção significativa do lucro total gerado por clientes**.
+- Alguns nomes aparecem também entre os maiores em valor de vendas, sugerindo **alta rentabilidade combinada com volume de transações**.
+
+## 🧠 Conclusões Gerais
+
+- É estratégico focar em **manter e expandir o relacionamento** com consumidores como Tamara Chand e Raymond Buch.
+- Clientes com **baixo volume de vendas mas alta margem de lucro unitária** devem ser observados para **modelos de pricing diferenciados**.
+- A análise pode servir como base para **estratégias de segmentação e personalização de campanhas** de retenção e expansão.
+
+# 📊 Top 20 Consumidores com Maior Quantidade de Vendas
+
+<img src="reports/Quantidade_consumidor.png"/>
+
+## 🔍 O que foi feito
+Foi realizada a agregação da quantidade total de itens comprados (`Quantity`) por cliente (`Customer Name`) e os **20 consumidores mais ativos** em volume de compras foram destacados no gráfico.
+
+## 📈 Principais Insights
+
+- **Jonathan Doherty, William Brown e John Lee** lideram em volume de compras, sugerindo **frequência ou ticket unitário elevado**.
+- Alguns consumidores apresentam **alta quantidade, mas não figuram entre os maiores em lucro ou valor de vendas**, o que pode indicar **baixo markup ou descontos frequentes**.
+- Os consumidores no topo podem representar **casos de fidelização**, sendo importantes para manter o giro de estoque.
+
+## 🧠 Conclusões Gerais
+
+- Estratégias de **cross-sell e up-sell** devem ser direcionadas aos clientes com alto volume de compra, visando aumentar seu ticket médio.
+- Avaliar a rentabilidade desses consumidores é essencial: **quantidade alta nem sempre se traduz em alto lucro**.
+- Pode ser útil aplicar **segmentação RFM (Recência, Frequência e Valor Monetário)** para entender melhor o comportamento desses clientes.
 
 ---
 
-## 🔹 Correlação entre variáveis
+# 🔹 Correlação entre variáveis
 
-### 🔸 Mapa de calor entre Sales, Quantity, Discount, Profit
-<img src="reports/MapaCalor_correlações.png" width="800"/>
+# 📊 Mapa de Calor das Correlações
+
+<img src="reports/MapaCalor_correlações.png"/>
+
+## 🔍 O que foi feito
+Foi criado um **heatmap de correlação** entre as variáveis numéricas do dataset: `Sales`, `Quantity`, `Discount` e `Profit`. Esse tipo de visualização permite identificar relações lineares entre variáveis.
+
+## 📈 Principais Insights
+
+- A variável **`Profit` possui correlação moderada positiva com `Sales`** (`0.48`), o que é esperado, dado que lucros derivam das vendas.
+- A variável **`Discount` tem correlação negativa com `Profit`** (`-0.22`), indicando que **maiores descontos tendem a reduzir os lucros**.
+- **`Quantity` possui correlação fraca com todas as variáveis**, sugerindo que o volume de unidades vendidas **não é determinante direto nem do lucro nem do valor total da venda**.
+- A correlação entre `Discount` e `Sales` é praticamente nula, **indicando que descontos não necessariamente aumentam as vendas**.
+
+## 🧠 Conclusões Gerais
+
+- **Descontos devem ser aplicados com cautela**, pois não aumentam substancialmente as vendas e impactam negativamente o lucro.
+- Estratégias de **foco em aumento do ticket médio e mix de produtos com maior margem** podem ser mais eficazes que promoções agressivas.
+- A **análise multivariada adicional** (como regressão ou clusterização) pode aprofundar essas relações e identificar perfis de clientes e produtos mais rentáveis.
 
 ---
 
-## 📈 Resultados e Insights
+# 📈 Resultados e Insights
 
-### ✅ Categoria
-- *Office Supplies* teve o maior volume de vendas, mas não o maior lucro.
-- *Technology* gerou o maior lucro total, indicando alta margem.
-- *Furniture* apresenta lucro mais baixo — possível revisão de estratégias.
-- Maior ticket médio em *Technology*.
+## ✅ Categoria
+- 📦 *Office Supplies* lidera em **quantidade de vendas**, mas não em lucro — **indicativo de produtos com baixo ticket ou margem**.
+- 💻 *Technology* gerou o **maior lucro total**, com **o maior ticket médio**, demonstrando **alta rentabilidade**.
+- 🛋️ *Furniture* possui **baixo lucro**, apesar de bom volume — pode haver **problemas de margem ou excesso de desconto**.
 
-### ✅ Sub-Categoria
-- *Chairs* e *Phones* lideram em vendas e lucro.
-- *Tables* com prejuízo — alerta de possível problema.
-- *Copiers* tem maior ticket médio.
-- Estratégias devem variar por subcategoria.
+## ✅ Sub-Categoria
+- 💺 *Chairs* e 📱 *Phones* se destacam com **altos valores de vendas e lucro**.
+- ⚠️ *Tables* apresentou **prejuízo acumulado** — requer análise urgente.
+- 🖨️ *Copiers* têm o **maior ticket médio**, mas volume baixo — ideal para estratégias focadas.
+- Estratégias devem ser **segmentadas por subcategoria**, priorizando lucratividade.
 
-### ✅ Região
-- *West* e *East* dominam em vendas.
-- *Central* tem lucro fraco — oportunidade de melhoria.
-- Maior ticket médio na região *South*.
+## ✅ Região
+- 🌎 *West* e *East* são líderes em **vendas e lucro** — mantê-las como **regiões estratégicas**.
+- 🧭 *Central* apresenta **lucro inferior**, sendo uma **região com potencial de crescimento**.
+- 📍 *South* tem o **maior ticket médio**, indicando **clientes de alto valor médio**.
 
-### ✅ Segmento
-- *Consumer* lidera em volume.
-- *Corporate* apresenta maior ticket médio.
-- *Home Office* tem desempenho inferior — foco potencial para campanhas.
+## ✅ Segmento
+- 👥 *Consumer* é o **segmento com maior volume de vendas e lucro absoluto**.
+- 🏢 *Corporate* destaca-se pelo **ticket médio mais elevado** — foco em vendas de alto valor.
+- 🏠 *Home Office* tem **desempenho mais fraco em todas as métricas** — sugerindo oportunidade para ações de incentivo ou realocação de esforços.
 
-### ✅ Cliente
-- Top 20 concentram a maior parte do lucro.
-- Volume ≠ Lucro → atenção ao desempenho individual de clientes.
+## ✅ Cliente
+- 🏆 Os **20 principais clientes concentram a maior parte do lucro** — clientes estratégicos devem ser **retidos e priorizados**.
+- ⚖️ Alto volume de compras **nem sempre gera alto lucro** — é crucial acompanhar **margem individual por cliente**.
+- 👀 Clientes com muito volume mas pouco lucro podem estar concentrando **produtos de baixa margem ou exigindo muitos descontos**.
 
-### ✅ Correlação
-- Correlação fraca entre Sales e Profit.
-- *Discount* afeta negativamente o lucro.
-- Volume (Quantity) tem pouco impacto no lucro.
+## ✅ Correlação
+- 🔁 Correlação **moderada entre `Sales` e `Profit`** (`+0.48`), indicando que **nem toda venda gera lucro proporcional**.
+- ❌ `Discount` tem correlação **negativa com `Profit`** (`-0.22`) — **descontos altos prejudicam a rentabilidade**.
+- 📉 `Quantity` possui **correlação fraca com `Profit`**, sugerindo que **vender mais unidades não necessariamente é mais lucrativo**.
+
+
 
 ---
 ## Conclusões e Recomendações
