@@ -54,8 +54,6 @@ A soma total por categoria foi calculada e visualizada com `seaborn.barplot()`.
   - **Ticket médio**
   - **Frequência de compra por segmento**
 
-Esse tipo de visualização é fundamental em **dashboards comerciais, relatórios de desempenho e apresentações executivas**.
-
 # 📊 Quantidade Total de Produtos Vendidos por Categoria
 
 <img src="reports/Quantidade_categoria.png"/>
@@ -249,9 +247,8 @@ Foi gerado um gráfico de barras que exibe a **quantidade total de itens vendido
 - Subcategorias com alto volume, como `Binders`, merecem atenção especial em termos de **logística e margem unitária**.
 - Já subcategorias com vendas menores devem ser avaliadas quanto à **rentabilidade e importância estratégica**, podendo ser nichos de alto valor.
 
-> 🎯 A análise de quantidade deve ser complementada por gráficos de **lucro e ticket médio por subcategoria**, para balancear volume e rentabilidade.
 
-  # 📊 Lucro por Sub-Categoria
+# 📊 Lucro por Sub-Categoria
 
 <img src="reports/Lucro_subcategoria.png"/>
 
@@ -338,25 +335,112 @@ Os dados foram ordenados de forma decrescente e plotados com barras coloridas pa
 - Subcategorias com baixo ticket mas alto volume podem compensar em **receita total** — essas exigem estratégias de escala.
 - Subcategorias com alto ticket médio devem ser **priorizadas em ações personalizadas e de maior valor agregado**.
 
-> 💡 Use este gráfico em conjunto com **lucro** e **volume de vendas** para identificar **oportunidades de margem e investimento inteligente**.
-
-
 ---
 
 # 🔹 Região
 
-### 🔸 Total de vendas, quantidade, lucro por região
-<p align="left">
-  <img src="reports/Vendas_regiao.png" width="300"/>
-  <img src="reports/Quantidade_regiao.png" width="300"/>
-  <img src="reports/Lucro_regiao.png" width="300"/>
-</p>
+# 📊 Total de Vendas (valor) por Região
 
-### 🔸 Comparativo lucro x vendas por região
-<img src="reports/LucroVendas_regiao.png" width="400"/>
+<img src="reports/Vendas_regiao.png"/>
 
-### 🔸 Ticket médio por região
-<img src="reports/TicketMedio_regiao.png" width="400"/>
+## 🔍 O que foi feito
+Foram somadas todas as vendas realizadas em cada uma das quatro regiões do dataset (`Central`, `East`, `South` e `West`) para identificar onde está concentrada a maior receita.
+
+## 📈 Principais Insights
+
+- **Região Oeste (West)** lidera em vendas totais, ultrapassando **730 mil**, o que pode indicar uma base de clientes maior ou ticket médio mais alto.
+- **Região Leste (East)** também se destaca com mais de **680 mil** em vendas.
+- A **Região Sul (South)** apresentou o menor volume de vendas, sugerindo potencial para campanhas de crescimento ou maior penetração de mercado.
+- **Região Central (Central)** encontra-se em posição intermediária, com mais de **500 mil** em vendas.
+
+## 🧠 Conclusões Gerais
+
+- A distribuição regional mostra **desigualdade nas receitas**, o que é útil para orientar estratégias de **expansão regional**, **alocação de equipe de vendas** ou **ações promocionais específicas**.
+- A priorização de regiões pode ser feita com base nesse desempenho, e outras análises — como ticket médio e lucratividade — podem refinar ainda mais essas decisões.
+
+# 📊 Quantidade de Vendas por Região
+
+<img src="reports/Quantidade_regiao.png"/>
+
+## 🔍 O que foi feito
+Foi realizada a soma do número total de produtos vendidos (`Quantity`) por região no período analisado, destacando o volume operacional de cada área geográfica.
+
+## 📈 Principais Insights
+
+- A **Região Oeste (West)** se destaca com a **maior quantidade de produtos vendidos**, ultrapassando **12 mil unidades**, o que indica forte movimentação operacional.
+- A **Região Leste (East)** também apresentou alto volume de vendas, seguida pela **Central (Central)**.
+- A **Região Sul (South)** registrou a **menor quantidade de vendas**, com cerca de **6 mil unidades**, o que pode sinalizar menor demanda ou menor penetração de mercado.
+
+## 🧠 Conclusões Gerais
+
+- A **quantidade de vendas** complementa a análise de faturamento, ajudando a identificar **regiões com alta demanda** que podem se beneficiar de otimizações logísticas e estoques locais.
+- Apesar do volume, é necessário cruzar esse dado com o **ticket médio** e **lucro por unidade** para entender a **eficiência comercial** de cada região.
+- A **Região Sul**, com baixo volume, pode ser um ponto de atenção para **campanhas de marketing regionalizadas** ou **parcerias locais**.
+
+
+# 📊 Lucro por Região
+
+<img src="reports/Lucro_regiao.png"/>
+
+## 🔍 O que foi feito
+Foi realizada a agregação do total de **lucros** (`Profit`) obtidos em cada **região geográfica**, com base em todas as transações registradas.
+
+## 📈 Principais Insights
+
+- A **Região Oeste (West)** gerou o **maior lucro total**, superando R$ 110 mil.
+- A **Região Leste (East)** aparece logo em seguida, com mais de R$ 90 mil de lucro.
+- As **Regiões Sul e Central**, apesar de registrarem vendas, apresentaram **menor rentabilidade** — o que pode indicar margens menores, descontos excessivos ou altos custos operacionais.
+
+## 🧠 Conclusões Gerais
+
+- O alto lucro da **Região Oeste** sugere **excelente performance comercial**, que pode estar associada a um **ticket médio mais alto** ou à venda de produtos com **maior margem**.
+- Já as regiões com menor lucro devem ser investigadas: **quais produtos são mais vendidos**, **qual a margem aplicada**, **existem devoluções/fretes altos**?
+- Essa análise reforça a importância de **combinar volume de vendas com indicadores financeiros**, como lucro e ticket médio, para decisões estratégicas.
+
+
+# 📊 Lucro x Vendas (valor) por Região
+
+<img src="reports/LucroVendas_regiao.png"/>
+
+## 🔍 O que foi feito
+Este gráfico compara **lucro total** (barras azuis) e **vendas totais (em valor)** (linha vermelha) para cada **região geográfica** da loja. Foi utilizado um gráfico de barras com dois eixos Y, para permitir a visualização conjunta dessas métricas financeiras.
+
+## 📈 Principais Insights
+
+- A **Região Oeste (West)** lidera tanto em **vendas** quanto em **lucro**, evidenciando um ótimo desempenho comercial.
+- A **Região Leste (East)** também apresenta alta performance em ambas as métricas, embora com um pequeno gap em relação ao Oeste.
+- A **Região Sul (South)** tem o **menor volume de vendas** e também o **menor lucro absoluto**, o que pode indicar baixa penetração ou produtos com margem reduzida.
+- A **Região Central (Central)** tem vendas consideráveis, mas o lucro é proporcionalmente menor, indicando **menor margem de lucratividade**.
+
+## 🧠 Conclusões Gerais
+
+- Há **correlação positiva** entre volume de vendas e lucro nas regiões analisadas, porém **a eficiência em conversão de vendas em lucro varia significativamente**.
+- Estratégias como **otimização do mix de produtos** e **ajuste de margem por região** podem ajudar a equilibrar os resultados.
+- Recomenda-se também avaliar os **custos operacionais por região**, que podem influenciar diretamente na lucratividade observada.
+
+
+# 📊 Ticket Médio por Região
+
+<img src="reports/TicketMedio_regiao.png"/>
+
+## 🔍 O que foi feito
+Neste gráfico, foi calculado o **Ticket Médio** para cada região, ou seja, o valor médio gasto por pedido. O cálculo é feito pela fórmula:
+
+**Ticket Médio = Total de Vendas / Quantidade de Produtos Vendidos**
+
+Os dados foram ordenados de forma decrescente para facilitar a comparação entre as regiões.
+
+## 📈 Principais Insights
+
+- A **Região Leste (East)** apresentou o **maior ticket médio**, indicando que os clientes desta região, em média, realizam compras de maior valor.
+- A **Região Sul (South)** também mostrou um ticket médio alto, apesar de ter o menor volume total de vendas — o que pode indicar um público mais seleto ou produtos mais caros.
+- A **Região Central** teve o **menor ticket médio**, sinalizando compras de menor valor por transação. Isso pode justificar a menor lucratividade mesmo com um bom volume de vendas.
+
+## 🧠 Conclusões Gerais
+
+- O ticket médio é um **indicador-chave de eficiência de vendas** e pode revelar oportunidades para estratégias como **upselling e cross-selling**.
+- Investir em campanhas específicas para aumentar o ticket médio da **Região Central** pode ajudar a melhorar os lucros, sem necessariamente aumentar o volume de pedidos.
+- Também é importante observar se regiões com ticket médio mais elevado estão associadas a **custos maiores ou devoluções**, o que pode afetar a rentabilidade final.
 
 ---
 
