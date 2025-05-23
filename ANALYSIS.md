@@ -6,13 +6,14 @@ Este documento apresenta uma visão aprofundada das análises realizadas por dim
 
 ## 📚 Sumário
 
-- [🔹 Categoria](#categoria)
-- [🔹 Sub-Categoria](#sub-categoria)
-- [🔹 Região](#região)
-- [🔹 Segmento](#segmento)
-- [🔹 Cliente (Top 20)](#cliente-top-20)
-- [🔹 Correlação entre variáveis](#correlação-entre-variáveis)
-- [📈 Resultados e Insights](#resultados-e-insights)
+- [🔸 Categoria](#categoria)
+- [🔸 Subcategoria](#subcategoria)
+- [🔸 Região](#região)
+- [🔸 Segmento](#segmento)
+- [🔸 Cliente - Top 20](#cliente---top-20)
+- [🔸 Análise de Correlação](#análise-de-correlação)
+- [📈 Resultados e Insights](#📈-resultados-e-insights)
+- [🧠 Conclusões e Recomendações](#🧠-conclusões-e-recomendações)
 
 ---
 
