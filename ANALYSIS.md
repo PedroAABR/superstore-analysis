@@ -164,7 +164,7 @@ Essa abordagem permite **avaliar simultaneamente o volume de vendas e o resultad
   - Nem sempre a **categoria mais vendida é a mais lucrativa**
   - **Gestão estratégica de margem** é tão importante quanto volume de vendas
 
-# 💳 Ticket Médio por Categoria
+# 📊 Ticket Médio por Categoria
 
 <img src="reports/TicketMedio_categoria.png"/>
 
@@ -197,12 +197,87 @@ Ou seja, representa o **valor médio por item vendido** em cada categoria (`Furn
 
 # 🔹 Sub-Categoria
 
-### 🔸 Total de vendas, quantidade, lucro por sub-categoria
-<p align="left">
-  <img src="reports/Vendas_subcategoria.png" width="600"/>
-  <img src="reports/Quantidade_subcategoria.png" width="600"/>
-  <img src="reports/Lucro_subcategoria.png" width="600"/>
-</p>
+# 📊 Total de Vendas (valor) por Sub-Categoria
+
+<img src="reports/Vendas_subcategoria.png"/>
+
+## 🔍 O que foi feito
+Este gráfico de barras exibe o valor total de vendas acumulado (`Sales`) por subcategoria de produtos. Os dados foram agrupados pela coluna `Sub-Category` e somados para representar o desempenho financeiro de cada grupo de itens.
+
+## 📈 Principais Insights
+
+1. **Liderança de Phones e Chairs**
+   - As subcategorias `Phones` e `Chairs` são as que mais geraram receita, ambas ultrapassando **300 mil dólares em vendas**.
+   - Produtos tecnológicos e de escritório de maior valor unitário explicam esse resultado.
+
+2. **Alto faturamento com baixo volume**
+   - Subcategorias como `Copiers` e `Machines` apresentam **alta receita com menor quantidade vendida**, indicando **ticket médio elevado**.
+
+3. **Desempenho modesto**
+   - `Art`, `Fasteners` e `Labels` figuram entre as subcategorias com menor valor de vendas, refletindo **baixo volume e/ou ticket médio reduzido**.
+
+##
+🧠 Conclusões Gerais
+
+- Subcategorias com alto valor de vendas devem ser priorizadas em **campanhas promocionais** e **gestão de estoque**.
+- Itens com faturamento elevado, mas pouca saída (ex: `Copiers`, `Machines`), são candidatos ideais para **análises de margem e ticket médio**.
+- Subcategorias com desempenho fraco devem ser avaliadas quanto à **rentabilidade real**, podendo indicar oportunidades para **reformulação do portfólio**.
+
+  
+ # 📊 Quantidade Total por Sub-Categoria
+
+<img src="reports/Quantidade_subcategoria.png"/>
+
+## 🔍 O que foi feito
+Foi gerado um gráfico de barras que exibe a **quantidade total de itens vendidos** para cada subcategoria presente no dataset. Os dados foram agrupados por `Sub-Category` e somados pela coluna `Quantity`.
+
+## 📈 Principais Insights
+
+1. **Binders e Paper** dominam em volume de vendas
+   - `Binders` lidera com quase **6.000 unidades vendidas**, seguido por `Paper`, com mais de **5.000 unidades**.
+   - Estes são produtos de **consumo recorrente**, o que justifica seu alto volume.
+
+2. **Subcategorias de nicho com menor volume**
+   - `Copiers`, `Machines` e `Supplies` registram as menores quantidades, indicando menor rotatividade ou ticket elevado.
+
+3. **Alta diversificação de vendas**
+   - A dispersão das vendas entre subcategorias mostra um portfólio **bem distribuído**, cobrindo desde papelaria até tecnologia.
+
+## 🧠 Conclusões Gerais
+
+- O gráfico é útil para identificar **subcategorias estratégicas**, tanto para **reforço de estoque** quanto para **ações promocionais**.
+- Subcategorias com alto volume, como `Binders`, merecem atenção especial em termos de **logística e margem unitária**.
+- Já subcategorias com vendas menores devem ser avaliadas quanto à **rentabilidade e importância estratégica**, podendo ser nichos de alto valor.
+
+> 🎯 A análise de quantidade deve ser complementada por gráficos de **lucro e ticket médio por subcategoria**, para balancear volume e rentabilidade.
+
+  # 📊 Lucro por Sub-Categoria
+
+<img src="reports/Lucro_subcategoria.png"/>
+
+## 🔍 O que foi feito
+Neste gráfico de barras, foram somados os valores da coluna `Profit` agrupados por `Sub-Category`. O objetivo é identificar quais subcategorias geram maior ou menor lucro total.
+
+## 📈 Principais Insights
+
+1. **Lucro expressivo em subcategorias específicas**
+   - `Copiers`, `Phones`, `Accessories` e `Paper` são as subcategorias que mais se destacam em lucratividade.
+   - Esses itens devem ser priorizados em estratégias de **crescimento e investimento**.
+
+2. **Desempenho negativo**
+   - Subcategorias como `Tables`, `Bookcases` e `Supplies` apresentam **lucro negativo**, indicando **prejuízo acumulado**.
+   - Isso pode ser reflexo de preços baixos, altos custos ou excesso de descontos.
+
+3. **Lucro modesto com alta receita**
+   - `Chairs`, embora tenha alto volume de vendas, apresenta lucro moderado, o que pode sugerir uma **margem reduzida**.
+
+## 🧠 Conclusões Gerais
+
+- Subcategorias lucrativas devem ser mantidas como foco de **promoção e estoque**.
+- Itens com prejuízo devem ser analisados para **revisão de custos**, precificação ou descontinuação.
+- A comparação cruzada com o volume e ticket médio é essencial para ações assertivas.
+
+
 
 ### 🔸 Comparativo lucro x vendas por sub-categoria
 <img src="reports/LucroVendas_subcategoria.png" width="800"/>
