@@ -444,14 +444,75 @@ Os dados foram ordenados de forma decrescente para facilitar a comparação entr
 
 ---
 
-## 🔹 Segmento
+# 🔹 Segmento
 
-### 🔸 Total de vendas, quantidade, lucro por segmento
-<p align="left">
-  <img src="reports/Vendas_segmento.png" width="300"/>
-  <img src="reports/Quantidade_segmento.png" width="300"/>
-  <img src="reports/Lucro_segmento.png" width="300"/>
-</p>
+# 📊 Lucro por Segmento
+
+<img src="reports/Lucro_segmento.png"/>
+
+## 🔍 O que foi feito
+O gráfico acima representa o **lucro total** obtido por cada segmento de clientes da empresa: `Consumer`, `Corporate` e `Home Office`.
+
+A métrica de lucro foi agregada por segmento com a função `.sum()` e visualizada através de um gráfico de barras vertical.
+
+## 📈 Principais Insights
+
+- O segmento **Consumer** foi o mais lucrativo, apresentando um desempenho significativamente superior aos demais.
+- O segmento **Corporate** gerou um lucro considerável, porém ainda abaixo do segmento Consumer.
+- O segmento **Home Office** teve o menor lucro, o que pode indicar:
+  - Menor volume de vendas,
+  - Produtos com margens menores,
+  - Ou altos custos associados.
+
+## 🧠 Conclusões Gerais
+
+- O foco em estratégias de fidelização e crescimento do segmento **Consumer** pode continuar gerando excelentes retornos.
+- Há potencial para expansão no segmento **Corporate**, com políticas comerciais mais agressivas ou personalizadas.
+- O segmento **Home Office** exige atenção: é necessário investigar se o baixo desempenho está relacionado a produtos, preços, canais de venda ou perfil de clientes.
+
+# 📊 Quantidade de Vendas por Segmento
+
+<img src="reports/Quantidade_segmento.png"/>
+
+## 🔍 O que foi feito
+Este gráfico de barras apresenta a **quantidade total de produtos vendidos** por segmento (`Consumer`, `Corporate`, `Home Office`) com base nos registros históricos de vendas.
+
+A agregação foi feita por soma da variável `Quantity` utilizando `groupby`.
+
+## 📈 Principais Insights
+
+- O segmento **Consumer** é o mais representativo em volume, com quase o dobro da quantidade de vendas do segmento **Corporate**.
+- **Home Office** apresenta o menor volume de vendas, o que pode impactar diretamente seu faturamento e lucratividade.
+
+## 🧠 Conclusões Gerais
+
+- A dominância do segmento Consumer em volume pode indicar uma **base de clientes mais ampla ou com maior frequência de compra**.
+- O segmento **Corporate**, mesmo com volume menor, pode apresentar **melhor rentabilidade** dependendo da margem envolvida.
+- É essencial investigar o segmento **Home Office**: há espaço para explorar estratégias de penetração, reposicionamento de produto ou campanhas específicas para este público.
+
+# 📊 Total de Vendas (valor) por Segmento
+
+<img src="reports/Vendas_segmento.png"/>
+
+## 🔍 O que foi feito
+Este gráfico de barras apresenta o **valor total de vendas** por segmento: `Consumer`, `Corporate` e `Home Office`.
+
+Os dados foram agregados por meio da soma da variável `Sales`.
+
+## 📈 Principais Insights
+
+- O segmento **Consumer** lidera com folga em volume financeiro, superando 1 milhão em vendas.
+- O segmento **Corporate** aparece em segundo lugar, com cerca de 70% do valor obtido em Consumer.
+- O **Home Office**, apesar de relevante, representa a menor fatia do faturamento entre os três.
+
+## 🧠 Conclusões Gerais
+
+- O mercado **Consumer** é claramente o principal motor de receita da operação. Isso pode indicar:
+  - Maior base de clientes finais,
+  - Maior ticket médio ou volume de compras recorrentes.
+- O segmento **Corporate**, embora menor, ainda representa uma parcela significativa da receita e pode oferecer **maior estabilidade e fidelização**.
+- O **Home Office** tem desempenho inferior — ideal para ações de **crescimento, reengajamento ou reposicionamento estratégico**.
+
 
 ### 🔸 Comparativo lucro x vendas por segmento
 <img src="reports/LucroVendas_segmento.png" width="400"/>
