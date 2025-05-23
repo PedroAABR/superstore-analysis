@@ -279,15 +279,71 @@ Neste gráfico de barras, foram somados os valores da coluna `Profit` agrupados 
 
 
 
-### 🔸 Comparativo lucro x vendas por sub-categoria
-<img src="reports/LucroVendas_subcategoria.png" width="800"/>
+# 📊 Lucro x Vendas (valor) por Sub-Categoria
 
-### 🔸 Ticket médio por sub-categoria
-<img src="reports/TicketMedio_subcategoria.png" width="800"/>
+<img src="reports/LucroVendas_subcategoria.png"/>
+
+## 🔍 O que foi feito
+Este gráfico de dois eixos combina:
+- **Lucro (barras azuis)**: total da subcategoria.
+- **Vendas (linha vermelha)**: valor total de vendas por subcategoria.
+
+Foi utilizada a biblioteca `seaborn` com `barplot` e `lineplot` aplicados sobre eixos gêmeos (`twinx()`), permitindo observar simultaneamente as duas métricas.
+
+## 📈 Principais Insights
+
+1. **Alta venda, baixo lucro**
+   - `Chairs` e `Tables` possuem grande volume de vendas, mas baixo ou até **negativo lucro**, o que pode indicar **custos elevados ou descontos agressivos**.
+
+2. **Lucro elevado e vendas equilibradas**
+   - `Copiers`, `Phones`, `Accessories` e `Paper` demonstram forte desempenho tanto em **valor vendido quanto em lucratividade**.
+   - Subcategorias ideais para **investimentos e campanhas promocionais**.
+
+3. **Desempenho fraco**
+   - Subcategorias como `Bookcases`, `Fasteners`, `Supplies` e `Machines` possuem vendas e lucro baixos ou negativos. Avaliar **custo-benefício da manutenção no portfólio**.
+
+## 🧠 Conclusões Gerais
+
+- A comparação direta entre **valor gerado** e **lucro obtido** revela **eficiência comercial de cada subcategoria**.
+- Estratégias como **ajuste de preços**, **redução de custos** ou **reposicionamento de produtos** podem ser definidas com base nestes resultados.
+
+
+# 📊 Ticket Médio por Sub-Categoria
+
+<img src="reports/TicketMedio_subcategoria.png"/>
+
+## 🔍 O que foi feito
+Foi calculado o **ticket médio** para cada subcategoria, ou seja, a **média de valor gasto por item comprado**:
+\[
+\text{Ticket Médio} = \frac{\text{Total de Vendas}}{\text{Quantidade Vendida}}
+\]
+Os dados foram ordenados de forma decrescente e plotados com barras coloridas para facilitar a análise visual.
+
+## 📈 Principais Insights
+
+1. **Subcategorias de alto ticket médio**:
+   - `Copiers` e `Machines` lideram com os **valores médios por venda mais altos**, indicando produtos **caros ou premium**.
+   - Estratégias como **foco em upsell ou vendas consultivas** podem ser eficazes aqui.
+
+2. **Ticket médio intermediário**:
+   - `Tables`, `Chairs`, `Phones` e `Bookcases` apresentam valores razoáveis, com potencial para **combos promocionais** ou **kits de mobiliário**.
+
+3. **Baixo ticket médio**:
+   - Subcategorias como `Paper`, `Art`, `Labels` e `Fasteners` têm o menor valor por venda.
+   - Essas são ideais para **ações de volume**, **freemium** ou **inclusão como brinde**.
+
+## 🧠 Conclusões Gerais
+
+- O ticket médio é um excelente indicador para **estratégia de precificação**, **posicionamento de produto** e **decisão de marketing**.
+- Subcategorias com baixo ticket mas alto volume podem compensar em **receita total** — essas exigem estratégias de escala.
+- Subcategorias com alto ticket médio devem ser **priorizadas em ações personalizadas e de maior valor agregado**.
+
+> 💡 Use este gráfico em conjunto com **lucro** e **volume de vendas** para identificar **oportunidades de margem e investimento inteligente**.
+
 
 ---
 
-## 🔹 Região
+# 🔹 Região
 
 ### 🔸 Total de vendas, quantidade, lucro por região
 <p align="left">
